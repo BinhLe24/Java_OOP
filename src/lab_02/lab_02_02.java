@@ -14,7 +14,7 @@ public class lab_02_02 {
         } else if(soDu == 0) {
             System.out.println("-->It is an even number");
         } else {
-            System.out.println("--> It is an odd number");
+            System.out.println("-->It is an odd number");
         }
     }
 }
