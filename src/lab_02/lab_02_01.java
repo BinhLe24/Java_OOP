@@ -13,11 +13,11 @@ public class lab_02_01 {
 
         float BMI = clientWeight / (clientHeight * 2);
         System.out.println("BMI = " + BMI);
-        if (BMI<18.5){
+        if (BMI < 18.5){
             System.out.println("Underweight");
-        } else if (BMI<=24.9) {
+        } else if (BMI <= 24.9) {
             System.out.println("Normal weight");
-        } else if (BMI<=29.9) {
+        } else if (BMI <= 29.9) {
             System.out.println("Overweight");
         } else {
             System.out.println("Obesity");
