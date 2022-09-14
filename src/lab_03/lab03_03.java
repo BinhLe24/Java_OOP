@@ -1,6 +1,6 @@
 package lab_03;
 
-public class lap03_03 {
+public class lab03_03 {
     public static void main(String[] args) {
         int[] myIntArray = new int[]{2, 10, 1, 9, 1, 12};
 
