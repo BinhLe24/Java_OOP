@@ -14,8 +14,8 @@ public class lab_02_03 {
         System.out.println("BMI = " + BMI);
         if (BMI < 18.5){
             System.out.println("Underweight");
-            float mySuggest = (float) ((18.5 * clientHeight * 2) - clientWeight);
-            System.out.println("--> You should increase: " + mySuggest + "kg");
+            float mySuggestMin = (float) ((18.5 * clientHeight * 2) - clientWeight);
+            System.out.println("--> You should increase: " + mySuggestMin + "kg");
         } else if (BMI <= 24.9) {
             System.out.println("Normal weight");
         } else if (BMI <= 29.9) {
