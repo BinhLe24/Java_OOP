@@ -20,9 +20,9 @@ public class lab_05 {
                     System.out.println("--> OPTION 2 - Your numbers is: " + myArrList);
                 }
             } else if (userOption == 3) {
-                getMaxNum(myArrList);
+                getMaxNumber(myArrList);
             } else if (userOption == 4) {
-                getMinNum(myArrList);
+                getMinNumber(myArrList);
             } else if (userOption == 5) {
                 searchNumber(myArrList);
             } else {
@@ -46,7 +46,7 @@ public class lab_05 {
         Scanner scanner = new Scanner(System.in);
         return scanner.nextInt();
     }
-    public static void getMaxNum(List<Integer> myArrList){
+    public static void getMaxNumber(List<Integer> myArrList){
         if (myArrList.isEmpty()) {
             System.out.println("Your array is empty");
         } else {
@@ -59,7 +59,7 @@ public class lab_05 {
             System.out.println("--> OPTION 3 - Maximum number is: " + myMax);
         }
     }
-    public static void getMinNum(List<Integer> myArrList) {
+    public static void getMinNumber(List<Integer> myArrList) {
         if (myArrList.isEmpty()) {
             System.out.println("Your array is empty");
         } else {
